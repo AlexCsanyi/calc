@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./src/style.css" />
+        <title>Auden - Calculator</title>
+    </head>
+    <body>
+        <head>
+            <h1>Calculator</h1>
+        </head>
+
+        <main>
+            <div id="container-main">
+                <div id="container-display">
+                    <span id="display-prev"></span>
+                    <span id="display-current"></span>
+                </div>
+
+                <div id="container-body">
+                    <div id="container-numbers">
+                        <button class="button-number" data-number="0">0</button>
+                        <button class="button-number" data-number="1">1</button>
+                        <button class="button-number" data-number="2">2</button>
+                        <button class="button-number" data-number="3">3</button>
+                        <button class="button-number" data-number="4">4</button>
+                        <button class="button-number" data-number="5">5</button>
+                        <button class="button-number" data-number="6">6</button>
+                        <button class="button-number" data-number="7">7</button>
+                        <button class="button-number" data-number="8">8</button>
+                        <button class="button-number" data-number="9">9</button>
+                    </div>
+                    <div id="container-operators">
+                        <button
+                            class="button-operator"
+                            data-operator="c"
+                            id="btn-reset"
+                        >
+                            c
+                        </button>
+                        <button class="button-operator" data-operator="+">
+                            +
+                        </button>
+                        <button class="button-operator" data-operator="-">
+                            -
+                        </button>
+                        <button class="button-operator" data-operator="*">
+                            *
+                        </button>
+                        <button class="button-operator" data-operator="/">
+                            /
+                        </button>
+                        <button
+                            id="btn-equal"
+                            class="button-operator"
+                            data-operator="="
+                        >
+                            =
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Thank you for using our calculator</p>
+        </footer>
+
+        <script src="./src/index.js"></script>
+    </body>
+</html>

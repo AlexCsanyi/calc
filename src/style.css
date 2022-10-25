@@ -1,0 +1,51 @@
+body,
+main {
+    text-align: center;
+}
+
+/* Main */
+#container-main {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Display */
+#container-display {
+    width: 100%;
+}
+
+#container-display span {
+    display: inline-block;
+}
+
+/* Body */
+#container-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+#container-numbers {
+    padding: 1em;
+    flex: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1em;
+}
+
+#container-operators {
+    padding: 1em;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-operator {
+    max-width: 50%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#container-operators .button-operator:not(:first-child) {
+    margin-top: 5px;
+}
